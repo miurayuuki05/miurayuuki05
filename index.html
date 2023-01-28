@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+        <link href="/css/main.css" rel="stylesheet">
+        <script src="/js/tailwind.config.js"></script>
+        <title>Miura</title>
+    </head>
+    <body>
+        <div class="header sticky w-auto top-0 z-50 inset-x-0" id="home">
+
+            <nav class="navbar">
+                <div>
+                <h2><a class="font-light" href="#home">MIURA</a></h2>
+                </div>
+                <ul class="navitem">
+                    <li><a class="navopt hover:text-lime-200 font-light duration-500" href="#">HOME</a></li>
+                    <li><a class="navopt hover:text-lime-200 font-light duration-500" href="#gallerysection">GALLERY</a></li>
+                    <li><a class="navopt hover:text-lime-200 font-light duration-500" href="#toolsection">TOOLS</a></li>
+                    <li><a class="navopt hover:text-lime-200 font-light duration-500" href="#mystuffsection">MY STUFF</a></li>
+                </ul>
+            </nav>
+            <section class="space"></section>
+        </div>
+        <div class="maincontent">
+            <div class="intro">
+                <img id="bannerintro" class="container object-cover h-64" alt="banner" src="/img/banner.jpg">
+                <div id="introtext" class="container relative h-32 w-128 text-center">
+                <h1 class="text-xl pr-5">WHO AM I</h1>
+                <p class="text-xs font-light pr-5">Hi everyone, my name is Miura,
+                    I’m a collage student and a web dev
+                    you may know me as Faiz, Miura
+                    Is just a placeholder.<br><br>
+                    Anyway feel free to look around
+                    and see what I’ve got in this web</p>
+                </div>
+            </div>
+            <section class="space"></section>
+            <section class="space" id="gallerysection"></section>
+            <div>
+            <div id="gallery" class="container text-center">
+                <h2 class="text-2xl text-center pb-6">GALLERY</h2>
+                <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+                    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                    </div>
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                    <div class="carousel-item active relative float-left w-full">
+                        <img
+                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                        class="block w-full imgborder"
+                        alt="..."
+                        />
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item relative float-left w-full">
+                        <img
+                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                        class="block w-full imgborder"
+                        alt="..."
+                        />
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item relative float-left w-full">
+                        <img
+                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+                        class="block w-full imgborder"
+                        alt="..."
+                        />
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button
+                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                    >
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                    >
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            </div>
+            <section class="space"></section>
+            <section class="space" id="toolsection"></section>
+
+            <div id="tools" class="text-center text-2xl">
+                <h2 class="pb-20">TOOLS</h2>
+                <img alt="toolsbanner" class="max-h-[70%] h-40 w-full object-cover" src="/img/toolsbanner.png">
+                <div class="toolslist pt-5">
+                    <ul>
+                        <li><a class="text-xs font-medium hover:text-emerald-700 duration-500" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JAVASCRIPT</a></li>
+                        <li><a class="text-xs font-medium hover:text-emerald-700 duration-500" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></li>
+                        <li><a class="text-xs font-medium hover:text-emerald-700 duration-500" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+                        <li><a class="text-xs font-medium hover:text-emerald-700 duration-500" href="https://www.figma.com" target="_blank">FIGMA</a></li>
+                        <li><a class="text-xs font-medium hover:text-emerald-700 duration-500" href="https://tailwindcss.com" target="_blank">TAILWIND</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="space"></section>
+            <section class="space" id="mystuffsection"></section>
+
+            <div id="mystuff">
+                <h2 class="text-center text-2xl">My Stuff</h2>
+                <div class="justify-between flex pt-10">
+                    <div class="pt-5 pl-4 pr-2 w-1/2 font-light text-xs">
+                        <p>
+                            What kind of games do I like, surely there is a game 
+                            that I love the most, and to be honest, there is.<br>
+                            There are 3 games that I like to play the most. <br><br>
+                        </p>
+                        <ul class="list-decimal pl-4">
+                            <li><a href="#">Shadowverse</a></li>
+                            <li><a href="#">Arknights</a></li>
+                            <li><a href="#">Fate/Grand Order</a></li>
+                        </ul>
+                    </div>
+                    <div id="threegames" class="pr-4 pl-2">
+                        <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+                            <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                            </div>
+                            <div class="carousel-inner relative w-full overflow-hidden">
+                            <div class="carousel-item active relative float-left w-full">
+                                <img
+                                src="https://shadowverse.com/news/wp-content/uploads/ea5aef84fd293d948f6b37351e38e4ab.png"
+                                class="block w-full imgborder"
+                                alt="..."
+                                />
+                                <div class="carousel-caption hidden md:block absolute text-center">
+                                <h5 class="text-xl">Shadowverse</h5>
+                                <p class="font-light">A game that I used played consistently.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item relative float-left w-full">
+                                <img
+                                src="https://i0.wp.com/sequentialplanet.com/wp-content/uploads/2020/01/Webp.net-resizeimage-1-4.png?resize=1024%2C576&ssl=1"
+                                class="block w-full imgborder"
+                                alt="..."
+                                />
+                                <div class="carousel-caption hidden md:block absolute text-center">
+                                <h5 class="text-xl">Arknights</h5>
+                                <p class="font-light">A pretty fun tower defense game, and definitely a free to play game.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item relative float-left w-full">
+                                <img
+                                src="/img/fgo banner.webp"
+                                class="block w-full imgborder"
+                                alt="..."
+                                />
+                                <div class="carousel-caption hidden md:block absolute text-center">
+                                <h5 class="text-xl">Fate/Grand Order</h5>
+                                <p class="font-light">A game that I still play to this day because the story, and cultured stuff ;).</p>
+                                </div>
+                            </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="space"></section>
+            <section class="space"></section>
+
+            <h3 class="font-light justify-center flex text-2xl pb-10">Leave a massage</h3>
+            <div class="justify-center flex w-full font-light">
+                <form class="grid grid-rows-3" action="https://formsubmit.co/faizislamicqowy@gmail.com" method="POST">
+                    <div class="mb-6">
+                        <label for="nameform" class="form-label">Name</label>
+                        <input type="text" name="Name" class="border rounded-lg block w-full bg-gray-600 border-gray-800" id="nameform">
+                    </div>
+                    <div class="mb-6">
+                        <label for="emailform" class="form-label">Email</label>
+                        <input type="email" name="Email" class="border rounded-lg block w-full bg-gray-600 border-gray-800" id="emailform" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="massage" class="form-label">Massage</label>
+                        <textarea class="border rounded-lg block w-full bg-gray-600 border-gray-800" name="Comment" id="massage" rows="4" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="border rounded-full border-gray-300 hover:text-gray-500 hover:border-gray-700">⠀⠀  Submit  ⠀⠀</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="footer bg-gray-800">
+                <p class="text-center text-white font-light pb-2 text-xs ">Miura©2023</p>
+            </div>
+        </div>
+    </body>
+</html>
