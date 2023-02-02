@@ -62,45 +62,28 @@
                         data-bs-slide-to="1"
                         aria-label="Slide 2"
                     ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
-                    ></button>
                     </div>
                     <div class="carousel-inner relative w-full overflow-hidden">
                     <div class="carousel-item active relative float-left w-full">
                         <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                        src="/img/webnaziha.PNG"
                         class="block w-full imgborder"
                         alt="..."
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl">First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 class="text-xl">Naziha's Web</h5>
+                        <p>My GF portfolio</p>
                         </div>
                     </div>
                     <div class="carousel-item relative float-left w-full">
                         <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                        src="/img/Certificate.jpg"
                         class="block w-full imgborder"
                         alt="..."
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
                         <h5 class="text-xl">Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item relative float-left w-full">
-                        <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                        class="block w-full imgborder"
-                        alt="..."
-                        />
-                        <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl">Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                     </div>
@@ -228,9 +211,15 @@
             <section class="space"></section>
             <section class="space"></section>
 
-            <h3 class="font-light justify-center flex text-2xl pb-10">Leave a message</h3>
+            <h3 class="font-light justify-center flex text-2xl pb-10">Leave a massage</h3>
             <div class="justify-center flex w-full font-light">
                 <form class="grid grid-rows-3" action="https://formsubmit.co/37ed5b6a24df1eb0dca36a7dd7a8726a" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div class="mb-6">
                         <label for="nameform" class="form-label">Name</label>
                         <input type="text" name="Name" class="border rounded-lg block w-full bg-gray-600 border-gray-800" id="nameform">
