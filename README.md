@@ -5,7 +5,7 @@
 
 - 🌱 Currently learning **Docker and other stuff**
 
-- 📝 I regularly write articles on [https://miurayuuki05.github.io/](https://miurayuuki05.github.io/)
+- 📝 I regularly write articles on [https://miurayuuki05.github.io/](https://www.mryk.tech/)
 
 - 💬 Ask me about **nextjs, reactjs, or other framework stuff**
 
