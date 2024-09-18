@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on some project<br>🌱 Currently learning new stuff<br>📝 Check out my stuff on https://www.mryk.tech/<br>💬 Ask me about nextjs, reactjs, or other framework stuff<br>📫 You can reach me on faizislamicqowy@gmail.com
+🔭 I’m currently working on some project<br>🌱 Currently learning new stuff<br>📝 Check out my stuff on https://www.mryk.vercel.app/<br>💬 Ask me about nextjs, reactjs, or other framework stuff<br>📫 You can reach me on faizislamicqowy@gmail.com
 
 
 ## 🌐 Socials:
