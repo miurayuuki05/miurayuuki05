@@ -2,7 +2,7 @@
 
 ###
 
-<p>🖥 Working on microservices </p>
+<p>🖥 Working on Stuff </p>
 <p>📖 Learning some generative AI and Computer Vision </p>
 <p>📄 Doing some side project </p>
 
