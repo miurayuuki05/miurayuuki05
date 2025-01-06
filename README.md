@@ -3,8 +3,8 @@
 ###
 
 <p>🖥 Working on Stuff </p>
-<p>📖 Learning some generative AI and Computer Vision </p>
-<p>📄 Doing some side project </p>
+<p>📖 Learning some Deeplearning and Computer Vision </p>
+<p>📄 Doing some side project and research </p>
 
 ###
 
